@@ -1,6 +1,9 @@
 # popX-react-assignment
 A modern, responsive user onboarding and profile management interface built with **React** and styled for seamless mobile-first experiences. This application includes multi-screen transitions, form validations, and user profile state management.
 
+## Live Demo
+https://popx-react-task.netlify.app/
+
 ## Features
 * **Welcome Page** - A welcome page having signup and login buttons
 * **Signup Page** - A page for taking user details to create an user account
