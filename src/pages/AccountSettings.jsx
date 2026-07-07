@@ -1,3 +1,5 @@
+import camIcon from '../assets/camera-icon.png'
+import profileImg from '../assets/profile-img.jpg'
 
 function AccountSettings() {
 
@@ -11,9 +13,9 @@ function AccountSettings() {
             <div>
                 <div className="flex gap-3 p-5">
                     <div className="flex items-end">
-                        <img className="h-18 w-18 rounded-full" src="src/assets/profile-img.jpg" alt="profile" />
+                        <img className="h-18 w-18 rounded-full" src={profileImg} alt="profile" />
                         <div className="h-5 w-5 flex justify-center align-center bg-indigo-700 p-1 rounded-full relative bottom-1 right-4">
-                           <img className="invert" src="src/assets/camera-icon.png" alt="camera-icon" />
+                           <img className="invert" src={camIcon} alt="camera-icon" />
                         </div>                    
                     </div>
                     <div>
