@@ -47,7 +47,7 @@ function SignIn() {
         navigate('/settings');
     }
     return (
-        <div className="w-[375px] h-[730px] border border-1 px-5 py-6 bg-white">
+        <div className="w-[375px] h-[730px] px-5 py-6 bg-white shadow-md">
             <h1 className="font-bold text-3xl text-slate-800">Signin to your<br /> PopX account</h1>
             <p className="text-slate-500 my-4">Lorem ipsum dolor sit amet,<br /> consectetur adipisicing elit.</p>
             <form onSubmit={handleLogin}>

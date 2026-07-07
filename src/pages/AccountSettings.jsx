@@ -6,7 +6,7 @@ function AccountSettings() {
     const {fullname, email} = userInfo;
 
     return (
-        <div className="w-[375px] h-[730px] border border-1 bg-slate-100 relative">
+        <div className="w-[375px] h-[730px] bg-slate-100 relative shadow-md">
             <h4 className="font-medium text-xl text-slate-700 px-5 h-18 flex items-center bg-white shadow-xs">Account Settings</h4>
             <div>
                 <div className="flex gap-3 p-5">

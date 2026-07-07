@@ -61,32 +61,32 @@ function SignUp() {
         navigate('/settings');
     }
     return (
-        <div className="w-[375px] h-[730px] border border-1 px-5 py-6 bg-white flex flex-col">
+        <div className="w-[375px] h-[730px] px-5 py-6 bg-white flex flex-col shadow-md">
             <h1 className="font-bold text-3xl text-slate-800">Create your <br />PopX account</h1>
             <form className="flex-1 relative text-slate-800" onSubmit={handleSignUp}>
                 <div className="relative mt-7">
                    <label className="absolute -top-3 left-2 bg-white px-1 text-purple-600">Full Name<span className="text-red-700">*</span></label>
-                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="text" name="fullname" placeholder="Marry Doe" />
+                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="text" name="fullname" placeholder="Enter Your Name" />
                    {error && errorType == 'name' && <p className="text-red-700 text-sm">{error}</p>}
                 </div>
                 <div className="relative mt-7">
                    <label className="absolute -top-3 left-2 bg-white px-1 text-purple-600">Phone number<span className="text-red-700">*</span></label>
-                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="tel" name="mobile" placeholder="Marry Doe" />
+                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="tel" name="mobile" placeholder="Enter Your Phone Number" />
                    {error && errorType == 'number' && <p className="text-red-700 text-sm">{error}</p>}
                 </div>
                 <div className="relative mt-7">
                    <label className="absolute -top-3 left-2 bg-white px-1 text-purple-600">Email address<span className="text-red-700">*</span></label>
-                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="email" name="email" placeholder="Marry Doe" />
+                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="email" name="email" placeholder="Enter Your Email Address" />
                    {error && errorType == 'email' && <p className="text-red-700 text-sm">{error}</p>}
                 </div>
                 <div className="relative mt-7">
                    <label className="absolute -top-3 left-2 bg-white px-1 text-purple-600">Password<span className="text-red-700">*</span></label>
-                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="password" name="password" placeholder="Marry Doe" />
+                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="password" name="password" placeholder="Enter Your Password" />
                    {error && errorType == 'password' && <p className="text-red-700 text-sm">{error}</p>}
                 </div>
                 <div className="relative mt-7">
                    <label className="absolute -top-3 left-2 bg-white px-1 text-purple-600">Company Name</label>
-                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="text" name="companyName" placeholder="Marry Doe" />
+                   <input className="outline-none border border-1 border-slate-400 px-4 py-2.5 w-full rounded font-medium" type="text" name="companyName" placeholder="Enter Company Name" />
                 </div>
                 <div className="relative mt-5 font-medium text-slate-700">
                    <label>Are you an Agency?<span className="text-red-700">*</span></label>

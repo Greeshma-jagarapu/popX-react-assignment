@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 function Home() {
     const navigate = useNavigate();
     return (
-        <div className="w-[375px] h-[730px] border-1 flex items-end font-rubik">
+        <div className="w-[375px] h-[730px] shadoe-md flex items-end font-rubik bg-white">
             <div className="w-full px-5 py-6">
                <h1 className="font-bold text-3xl text-slate-800">Welcome to PopX</h1>
                <p className="text-slate-500 my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
